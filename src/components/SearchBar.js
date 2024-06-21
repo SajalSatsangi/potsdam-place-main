@@ -127,7 +127,6 @@ const SearchBar = ({ onSearch }) => {
           onChange={(e) => setSearchInput(e.target.value)}
           placeholder="Enter a location"
         />
-        <button onClick={handleSearch}>Search</button>
       </div>
       <div className="margin">
         <label htmlFor="placeType">Choose a place type:</label>
